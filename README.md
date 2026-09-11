@@ -265,7 +265,7 @@ ipcMain.handle('generate-timetable', async () => {
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/ASWINNIDESH/Advanced Time Table Generator.git
+git clone https://github.com/Code-With-Gowtham/Advanced Time Table Generator.git
 cd Advanced Time Table Generator
 ```
 
