@@ -18,7 +18,7 @@ function createWindow() {
     }
   });
 
-  mainWindow.loadFile('renderer/index.html');
+  mainWindow.loadFile(path.join(__dirname, 'renderer', 'index.html'));
   // Monitor renderer load and console for debugging blank-screen issues
   mainWindow.webContents.on('did-finish-load', () => {
     console.log('Renderer: did-finish-load');
